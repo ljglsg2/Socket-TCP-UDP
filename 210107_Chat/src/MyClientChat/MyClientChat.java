@@ -15,7 +15,7 @@ public class MyClientChat {
 	Scanner sc = new Scanner(System.in);
 	
 	public MyClientChat() {
-		String ServerIP = "192.168.136.1"; //서버 IP 주소
+		String ServerIP = "192.168.0.8"; //서버 IP 주소
 		int ServerPort = 10000;//서버 포트
 		Socket socket = null;//서버와 연결될 소켓 레퍼런스
 		OutputStream out = null;
